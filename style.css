@@ -31,15 +31,31 @@
   }
 
   .utamaBtn {
-    background-color: green;
     margin: 10px;
+    padding: 10px 15px;
+    background-color: green;
+    border: none;
     border-radius: 8px;
-
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   }
+  .utamaBtn:hover {
+    background-color: rgb(198, 249, 198);
+    transform: translate(20px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    padding: 12px 20px;
+  }
+  .utamaBtn:active {
+    transform: translateY(2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease; /* efek klik jadi lebih smooth */
+}
 
   .inputBtn {
     
-    margin: 8px 16px;
+    margin: 10px;
+    padding: 10px 15px;
     background-color: blue;
     border: none;
     border-radius: 8px;
@@ -49,7 +65,7 @@
 }
 
 .inputBtn:hover {
-    background-color: red;
+    background-color: rgb(192, 192, 247);
     transform: translate(20px);
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
     padding: 12px 20px;
@@ -58,10 +74,12 @@
 .inputBtn:active {
     transform: translateY(2px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease; /* efek klik jadi lebih smooth */
 }
   
 
 .table-head th,td {
+  text-align: left;
   padding: 5px;
   border-bottom: 2px solid;
 }
@@ -72,8 +90,18 @@ tr:hover {
 
 .editBtn {
   background-color: yellow;
+  border-radius: 5px;
+}
+.editBtn:hover {
+  background-color: rgb(253, 253, 206);
 }
 
 .deleteBtn{
   background-color: red;
+  border-radius: 5px;
+}
+
+.deleteBtn:hover {
+  background-color: rgb(255, 159, 159);
+  border-radius: 5px;
 }
