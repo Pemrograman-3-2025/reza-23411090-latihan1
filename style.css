@@ -1,0 +1,79 @@
+.halamanBtn {
+    background-color: #2461fa;
+    color: white;
+    padding: 9px 18px;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .halamanBtn:hover {
+    background-color: #80a2f7;
+    color: white;
+  }
+  
+  .dataBtn {
+    background-color: #2461fa;
+    color: white;
+    padding: 9px 18px;
+    font-size: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .dataBtn:hover {
+    background-color: #80a2f7;
+    color: white;
+  }
+
+  .utamaBtn {
+    background-color: green;
+    margin: 10px;
+    border-radius: 8px;
+
+  }
+
+  .inputBtn {
+    
+    margin: 8px 16px;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.inputBtn:hover {
+    background-color: red;
+    transform: translate(20px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    padding: 12px 20px;
+}
+
+.inputBtn:active {
+    transform: translateY(2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+  
+
+.table-head th,td {
+  padding: 5px;
+  border-bottom: 2px solid;
+}
+
+tr:hover {
+  background: grey;
+}
+
+.editBtn {
+  background-color: yellow;
+}
+
+.deleteBtn{
+  background-color: red;
+}
